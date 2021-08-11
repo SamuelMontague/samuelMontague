@@ -1,0 +1,16 @@
+.linkedin-logo {
+    width: 8%;
+    height: 8%;
+    margin-top: 10%;
+    margin-right: 5%;
+}
+.github-logo {
+    width: 10%;
+    height: 10%;
+    margin-top: 10%;
+    margin-right: 5%;
+}
+* {
+    background-color: #6633cc;
+    color: white;
+}

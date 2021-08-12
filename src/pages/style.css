@@ -10,7 +10,32 @@
     margin-top: 10%;
     margin-right: 5%;
 }
+
 * {
-    background-color: #6633cc;
+    background-color: #2a2a2a;
     color: white;
+    text-align: center;
 }
+
+.database{
+    width: 50%;
+    height: 50%;
+}
+
+.dashboard{
+    width: 50%;
+    height: 50%;
+}
+
+.workout{
+    width: 50%;
+    height: 50%;
+}
+
+.notetaker{
+    width: 50%;
+    height: 50%;
+}
+
+
+

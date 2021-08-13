@@ -4,6 +4,7 @@ export default function About() {
   return (
     <div>
       <h1>About Me</h1>
+      <img src="assets/images/profile.jpg" alt="profile"/>
       <p>
       I am a new and upcoming web developer!
       I am 28 years old, with a background in Chemical Engineering and Aerospace Engineering.

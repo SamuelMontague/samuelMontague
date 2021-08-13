@@ -1,12 +1,19 @@
 import React from "react";
 import Card from "../Card";
+import DATABASE from "../../assets/images/resultPage.PNG"
+import ORGANIZER from '../../assets/images/eventorganizer222.PNG'
+import WORKOUTTRACKER from '../../assets/images/ScreenshotFT.PNG'
+import NOTETAKER from '../../assets/images/NoteTakerScreenshot.PNG'
+import WEATHER from '../../assets/images/Screenshot.png'
+import PASSWORD from '../../assets/images/passwordgenerator.PNG'
+ 
 
 const data = [
   {
     name: "Actor Database",
     image: 
       <img
-        src="assets/images/resultPage.PNG"
+        src={DATABASE}
         alt="results page"
         className="database"
       ></img>
@@ -37,7 +44,7 @@ const data = [
     name: "Event Organizer ",
     image: 
       <img
-        src="assets/images/eventorganizer222.PNG"
+        src={ORGANIZER}
         alt="landing page"
         className="dashboard"
       ></img>
@@ -69,7 +76,7 @@ const data = [
     name: "Note Taker Express ",
     image: 
       <img
-        src="assets/images/NoteTakerScreenshot.PNG"
+        src={NOTETAKER}
         alt="landing page"
         className="notetaker"
       ></img>
@@ -101,7 +108,7 @@ const data = [
     name: "Dwarven Workout Tracker ",
     image: 
       <img
-        src="assets/images/ScreenshotFT.PNG"
+        src={WORKOUTTRACKER}
         alt="landing page"
         className="workout"
       ></img>
@@ -133,7 +140,7 @@ const data = [
     name: "Weather Outlook",
     image: 
       <img
-        src="assets/images/screenshot.png"
+        src={WEATHER}
         alt="results page"
         className="weather"
       ></img>
@@ -164,7 +171,7 @@ const data = [
     name: "Password Generator",
     image: 
       <img
-        src="assets/images/passwordgenerator.PNG"
+        src={PASSWORD}
         alt="results page"
         className="password"
       ></img>

@@ -32,7 +32,7 @@ export default function Contact() {
       return;
       
     } else if (!name.length || !email.length || !message.length){
-      setErrorMessage('Please complete all fields.');
+      setErrorMessage('Gotta fill out all fields yo.');
       return;
     }
     setName('');
@@ -41,8 +41,9 @@ export default function Contact() {
   }
   return (
     <div>
-      <form className="form">
-        <input
+      <form className="contactform">
+        <p>If you would like contact me! Please leave your name, email and your message! </p>
+        <input className="form-control name"
           value={name}
           name="name"
           onChange={handleInputChange}
@@ -50,7 +51,7 @@ export default function Contact() {
           type="text"
           placeholder="name"
         />
-        <input
+        <input className="form-control email"
           value={email}
           name="email"
           onChange={handleInputChange}
@@ -58,7 +59,7 @@ export default function Contact() {
           type="email"
           placeholder="email"
         />
-        <input
+        <textarea className="form-control message" 
           value={message}
           name="message"
           onChange={handleInputChange}

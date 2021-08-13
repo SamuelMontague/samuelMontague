@@ -56,7 +56,60 @@
   text-align: center;
   position:relative;
   
+}
+
+.contactform {
+  text-align: center;
+  display:block;
+}
+
+.name {
+  display: inline-block;
+  text-align: left;
+  max-width: 60%;
+  margin: 2%
   
+  
+}
+
+.email {
+  display: inline-block;
+  max-width: 60%;
+  text-align: left;
+  margin: 2%
+}
+
+.message {
+  display: inline-block;
+  max-width: 60%;
+  text-align: left;
+  margin:2%
+}
+
+p {
+  font-size: 20px;
+}
+
+.resume {
+  max-width: 50%;
+  height: auto;
+}
+
+.tech-icon {
+  max-width: 70%;
+  height: auto;
+  
+}
+
+.tech {
+  list-style-type: none;
+}
+
+
+
+.profileimg {
+  max-width: 50%;
+  height: auto;
 }
 
 .hide {
@@ -88,8 +141,8 @@
   text-align: center;
 }
 
-.database:hover + .hide {
-  box-shadow:  0px 0px 8px orange, 0 0 15px orange;
+.database:hover {
+  box-shadow:  0px 0px 12px #CC5500, 0 0 20px #CC5500;
   display:flex;
   flex-direction: column;
   
@@ -106,11 +159,9 @@
 
 
 .dashboard:hover {
-  box-shadow:  0px 0px 8px orange, 0 0 15px orange;
+  box-shadow: 0px 0px 12px #CC5500, 0 0 20px #CC5500;
   display:flex;
   flex-direction: column;
-  
-
 }
 .dashboard{
   width: 100%;
@@ -119,7 +170,7 @@
 }
 
 .workout:hover {
-  box-shadow:  0px 0px 8px orange, 0 0 15px orange;
+  box-shadow:  0px 0px 12px #CC5500, 0 0 20px #CC5500;
   display:flex;
   flex-direction: column;
   
@@ -133,7 +184,7 @@
 }
 
 .notetaker:hover {
-  box-shadow:  0px 0px 8px orange, 0 0 15px orange;
+  box-shadow:  0px 0px 12px #CC5500, 0 0 20px #CC5500;
   display:flex;
   flex-direction: column;
   
@@ -146,7 +197,7 @@
   margin-bottom: 1rem;
 }
 .weather:hover {
-  box-shadow:  0px 0px 8px orange, 0 0 15px orange;
+  box-shadow:  0px 0px 12px #CC5500, 0 0 20px #CC5500;
   display:flex;
   flex-direction: column;
 }
@@ -156,7 +207,7 @@
   margin-bottom: 1rem;
 }
 .password:hover {
-  box-shadow:  0px 0px 8px orange, 0 0 15px orange;
+  box-shadow:  0px 0px 12px #CC5500, 0 0 20px #CC5500;
   display:flex;
   flex-direction: column;
   

@@ -9,6 +9,7 @@ export default function Contact() {
     const { target } = e;
     const inputType = target.name;
     const inputValue = target.value;
+    
     if (inputType === 'name') {
       setName(inputValue);
     } else if (inputType === 'email') {
@@ -17,28 +18,35 @@ export default function Contact() {
       setMessage(inputValue);
     }
   }
-  const handleFormSubmit = (e) => {
-    e.preventDefault();
-    if (!validateEmail(email)) {
-      setErrorMessage('Please enter a valid email.');
-      return;
+  const handleInputBlur = (e) => {
+    if (!e.target.value.length) {
+      setErrorMessage(`${e.target.name} is required`);
     } else {
       setErrorMessage('');
     }
-    
-    alert(`Hello ${name}`);
+  }
+  const handleFormSubmit = (e) => {
+    e.preventDefault();
+    if (!validateEmail(email)) {
+      setErrorMessage('I need a real email yo.');
+      return;
+      
+    } else if (!name.length || !email.length || !message.length){
+      setErrorMessage('Please complete all fields.');
+      return;
+    }
     setName('');
     setEmail('');
     setMessage('');
   }
   return (
     <div>
-      <p>Hello {name}</p>
       <form className="form">
         <input
           value={name}
           name="name"
           onChange={handleInputChange}
+          onBlur={handleInputBlur}
           type="text"
           placeholder="name"
         />
@@ -46,6 +54,7 @@ export default function Contact() {
           value={email}
           name="email"
           onChange={handleInputChange}
+          onBlur={handleInputBlur}
           type="email"
           placeholder="email"
         />
@@ -53,6 +62,7 @@ export default function Contact() {
           value={message}
           name="message"
           onChange={handleInputChange}
+          onBlur={handleInputBlur}
           type="textbox"
           placeholder="your message"
         />

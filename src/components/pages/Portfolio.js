@@ -6,17 +6,23 @@ import WORKOUTTRACKER from '../../assets/images/ScreenshotFT.PNG'
 import NOTETAKER from '../../assets/images/NoteTakerScreenshot.PNG'
 import WEATHER from '../../assets/images/Screenshot.png'
 import PASSWORD from '../../assets/images/passwordgenerator.PNG'
+import GITHUB from '../../assets/icons/github.png'
  
 
 const data = [
   {
     name: "Actor Database",
     image: 
+    <a className = "DeployedLink"
+        href=" https://www.m-ray-ofsunshine.github.io/actor-database/"
+        target="_blank"
+        rel="noreferrer"
+      >
       <img
         src={DATABASE}
         alt="results page"
         className="database"
-      ></img>
+      ></img></a>
     ,
     description:
       "This app was created to look up an actor/actress and see their most popular movies, their recent tweets, and recent news about them.",
@@ -26,16 +32,9 @@ const data = [
         target="_blank"
         rel="noreferrer"
       >
-        <h3>Repo</h3>
-      </a>
-    ,
-    deployed: 
-      <a className = "DeployedLink"
-        href=" https://www.m-ray-ofsunshine.github.io/actor-database/"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <h3>Deployed</h3>
+      <img src={GITHUB}
+      alt="github"
+      className="githubicon"></img>
       </a>
     ,
     id: 1,
@@ -43,11 +42,17 @@ const data = [
   {
     name: "Event Organizer ",
     image: 
+    <a
+        href="https://www.gentle-reaches-60799.herokuapp.com/"
+        target="_blank"
+        rel="noreferrer"
+      >
       <img
         src={ORGANIZER}
         alt="landing page"
         className="dashboard"
-      ></img>
+        
+      ></img></a>
     ,
     description:
       "This app was created to search events happening near the user or creating their own events",
@@ -58,28 +63,25 @@ const data = [
         rel="noreferrer"
       >
         
-        <h3>Repo</h3>
+        <img src={GITHUB}
+      alt="github"
+      className="githubicon"></img>
       </a>
     ,
-    deployed: 
-      <a
-        href="https://www.gentle-reaches-60799.herokuapp.com/"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <h3>Deployed</h3>
-      </a>
-   ,
     id: 2,
   },
   {
     name: "Note Taker Express ",
-    image: 
+    image: <a
+    href="https://intense-garden-88136.herokuapp.com/"
+    target="_blank"
+    rel="noreferrer"
+  >
       <img
         src={NOTETAKER}
         alt="landing page"
         className="notetaker"
-      ></img>
+      ></img></a>
     ,
     description:
       "This app was created using Express, with the application you can create, edit and delete notes! Very usefull for taking notes during a work meeting or during a college lecture.",
@@ -90,28 +92,25 @@ const data = [
         rel="noreferrer"
       >
        
-       <h3>Repo</h3>
-      </a>
-    ,
-    deployed: 
-      <a
-        href="https://intense-garden-88136.herokuapp.com/"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <h3>Deployed</h3>
+       <img src={GITHUB}
+      alt="github"
+      className="githubicon"></img>
       </a>
     ,
     id: 3,
   },
   {
     name: "Dwarven Workout Tracker ",
-    image: 
+    image: <a
+    href="https://still-refuge-71404.herokuapp.com/"
+    target="_blank"
+    rel="noreferrer"
+  >
       <img
         src={WORKOUTTRACKER}
         alt="landing page"
         className="workout"
-      ></img>
+      ></img></a>
     ,
     description:
       "This app was created to track one exercise or many within a workout, you can also track the previous workouts you have logged to the site. It tracks both cardio, and strength building workouts. It will also tracked the totals of the workouts, for example the total weight lifted or the total distance traveled.",
@@ -122,28 +121,25 @@ const data = [
         rel="noreferrer"
       >
        
-       <h3>Repo</h3>
-      </a>
-    ,
-    deployed: 
-      <a
-        href="https://still-refuge-71404.herokuapp.com/"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <h3>Deployed</h3>
+       <img src={GITHUB}
+      alt="github"
+      className="githubicon"></img>
       </a>
     ,
     id: 4,
   },
   {
     name: "Weather Outlook",
-    image: 
+    image: <a className = "DeployedLink"
+    href=" https://samuelmontague.github.io/hw6-weather-outlook/"
+    target="_blank"
+    rel="noreferrer"
+  >
       <img
         src={WEATHER}
         alt="results page"
         className="weather"
-      ></img>
+      ></img></a>
     ,
     description:
       "This is a front end site showcasing API calls. Using a weather API you can select a city, and see today's weather and a five day forecast. All searched cities are saved for return checks of the forecast.",
@@ -153,28 +149,25 @@ const data = [
         target="_blank"
         rel="noreferrer"
       >
-        <h3>Repo</h3>
-      </a>
-    ,
-    deployed: 
-      <a className = "DeployedLink"
-        href=" https://samuelmontague.github.io/hw6-weather-outlook/"
-        target="_blank"
-        rel="noreferrer"
-      >
-       <h3>Deployed</h3>
+        <img src={GITHUB}
+      alt="github"
+      className="githubicon"></img>
       </a>
     ,
     id: 5,
   },
   {
     name: "Password Generator",
-    image: 
+    image: <a className = "DeployedLink"
+    href=" https://samuelmontague.github.io/password-generator-hw3/"
+    target="_blank"
+    rel="noreferrer"
+  >
       <img
         src={PASSWORD}
         alt="results page"
         className="password"
-      ></img>
+      ></img></a>
     ,
     description:
       "This app asks a series of questions about the format for the password then generates a password with the parameters given.",
@@ -184,16 +177,9 @@ const data = [
         target="_blank"
         rel="noreferrer"
       >
-        <h3>Repo</h3>
-      </a>
-    ,
-    deployed: 
-      <a className = "DeployedLink"
-        href=" https://samuelmontague.github.io/password-generator-hw3/"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <h3>Deployed</h3>
+        <img src={GITHUB}
+      alt="github"
+      className="githubicon"></img>
       </a>
     ,
     id: 6,

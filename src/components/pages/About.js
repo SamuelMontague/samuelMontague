@@ -16,7 +16,7 @@ export default function About() {
       </div>
       <br></br>
       <div className="container row">
-      <h3>Education:</h3>
+      <h2>Education:</h2>
         <p className="bio col-6 col-sm-8">
       In 2015 I graduated from the University of Minnesota College of Science and Engineering with a Bachelors of Science in Chemical Engineering with a focus in Food Science and a minor in Spanish. In 2016 I was offered a scholarship to the California Institute of Technology for Chemical Engineering, included in the scholarship was an internship with JPL/NASA in Pasadena. In 2018 I graduated from Caltech with a Masters of Science in Chemical Engineering with a focus in Fluid Dynamics and Liquid Flow. In 2018 I also recived a Masters of Science in Aerospace Engineering thanks to my published research with JPL/NASA for my work on the Curiosity Rover project.
       </p>
@@ -24,7 +24,7 @@ export default function About() {
       </div>
       <br></br>
       <div className="container row">
-        <h3>Personal:</h3>
+        <h2>Personal:</h2>
         <img src={PROFILE3} className="profileimg col-6 col-sm-4" alt="profile"/>
         <p className="bio col-6 col-sm-8"> I am from North Minneapolis, I was born with a disability called Achondroplasia, known more commonly as Dwarfism. I have never let my disability dictate who I am or what I can become. I have a serious passion for learning new things, whether its learning a dish to cook for my partner, or learning a new skill in the laboratory. In my free time I enjoy working out, riding my bicycle, reading a new book, and playing dungeons and dragons. Between graduating from the U of M and joining Caltech for grad school I got an opportunity to travel the world. I traveled through Asia alone, visiting Hong Kong, Thailand, Taipei and Tokyo.  
         </p>

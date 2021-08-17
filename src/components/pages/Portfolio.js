@@ -14,7 +14,7 @@ const data = [
     name: "Actor Database",
     image: 
     <a className = "DeployedLink"
-        href=" https://www.m-ray-ofsunshine.github.io/actor-database/"
+        href=" https://m-ray-ofsunshine.github.io/actor-database/"
         target="_blank"
         rel="noreferrer"
       >
@@ -43,7 +43,7 @@ const data = [
     name: "Event Organizer ",
     image: 
     <a
-        href="https://www.gentle-reaches-60799.herokuapp.com/"
+        href="https://gentle-reaches-60799.herokuapp.com/"
         target="_blank"
         rel="noreferrer"
       >

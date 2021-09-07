@@ -12,13 +12,13 @@ export default function Header() {
     const [currentPage, setCurrentPage] = useState('About');
 
     const renderPage = () => {
-        if (currentPage === 'About') {
+        if (currentPage === 'About'){
             return <About />
         }
-        if (currentPage === 'Portfolio') {
+        if (currentPage === 'Portfolio'){
             return <Portfolio />
         }
-        if (currentPage === 'Contact') {
+        if (currentPage === 'Contact'){
             return <Contact />
         }
         if (currentPage === 'Resume'){

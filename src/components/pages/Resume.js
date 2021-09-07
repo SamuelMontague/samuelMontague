@@ -6,7 +6,8 @@ import MYSQL from '../../assets/icons/mysql.png'
 import MONGODB from '../../assets/icons/mongodb.png'
 import REACT from '../../assets/icons/react.png'
 import GRAPHQL from '../../assets/icons/graphql.png'
-import RESUME from '../../assets/images/Resume.PNG'
+import RESUME from '../../assets/images/FSRESUME.PNG'
+import RESUME2 from '../../assets/images/FSRESUME2.PNG'
 
 export default function Resume(){
     return(
@@ -25,8 +26,9 @@ export default function Resume(){
                 <li className="tech"><a href="https://www.graphql.com/tutorials/" target="_blank" rel="noreferrer"><img alt="icon" className="tech-icon display:inline" src={GRAPHQL}></img></a></li>
             </div>
             <br></br>
-            <a href="https://docs.google.com/document/d/1zwVeAYXx2eZBNyKz57fYxExxlIkifMeE6fsSdFhFv1o/edit?usp=sharing">
-                <img alt="icon" src={RESUME} className="resume"/>
+            <a href="https://docs.google.com/document/d/1wnwQEfOvsqGAokg2o14Uwozc2Ikpb3UO7QKaPgsdXa4/edit?usp=sharing">
+                <img alt="resume" src={RESUME} className="resume col-6"/>
+                <img alt="resume" src={RESUME2} className="resume col-6" />
             </a>
             <p>Click image for direct link to resume via google docs.</p>
         </div>

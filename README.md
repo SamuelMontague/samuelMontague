@@ -7,7 +7,7 @@ This is my portfolio that I have built using react! In my portfolio, the user ca
 
 Deployed: https://samuelmontague.github.io/reactPortfolio/
 
-![screenshot](src/assets/images/aboutmereact2.PNG) 
+![screenshot](src/assets/images/aboutmereact2.png) 
 ![screenshot](src/assets/images/projectsreact.PNG) 
 ![screenshot](src/assets/images/contactreact.PNG) 
 ![screenshot](src/assets/images/resumereact.PNG) 

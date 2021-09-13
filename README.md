@@ -28,7 +28,8 @@ Deployed: https://samuelmontague.github.io/reactPortfolio/
 * [Questions](#questions)
     
 # Installation
-    The following necessary dependcies must be installed to run the application properly: react, react-bootstrap, react-dom.
+
+The following necessary dependcies must be installed to run the application properly: react, react-bootstrap, react-dom.
 
 # Usage
 

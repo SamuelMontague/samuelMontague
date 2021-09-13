@@ -1,11 +1,11 @@
 # Sam Montague's React Portfolio
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/SamuelMontague/reactPortfolio)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/SamuelMontague/samuelMontague)
   
 # Description
 
 This is my portfolio that I have built using react! In my portfolio, the user can visit my about me, my projects I have, create a message to contact me, or checkout my resume!
 
-Deployed: https://samuelmontague.github.io/reactPortfolio/
+Deployed: https://samuelmontague.github.io/samuelMontague/
 
 ![screenshot](src/assets/images/aboutmereact2.png) 
 ![screenshot](src/assets/images/projectsreact.PNG) 
